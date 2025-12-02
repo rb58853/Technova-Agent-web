@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Technova-Agent-web/static/css/main.1f8a5fcd.css",
+    "main.js": "/Technova-Agent-web/static/js/main.75b51d23.js",
+    "static/js/453.f38c704f.chunk.js": "/Technova-Agent-web/static/js/453.f38c704f.chunk.js",
+    "index.html": "/Technova-Agent-web/index.html",
+    "main.1f8a5fcd.css.map": "/Technova-Agent-web/static/css/main.1f8a5fcd.css.map",
+    "main.75b51d23.js.map": "/Technova-Agent-web/static/js/main.75b51d23.js.map",
+    "453.f38c704f.chunk.js.map": "/Technova-Agent-web/static/js/453.f38c704f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8a5fcd.css",
+    "static/js/main.75b51d23.js"
+  ]
+}
