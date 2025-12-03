@@ -13,29 +13,33 @@ body,
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100%;
-    background: #181818;
+    width: 90%;
+    max-width: 1000px;
+    /* background: #181818; */
     /* Modo oscuro */
     color: #f0f0f0;
     font-family: 'Segoe UI', sans-serif;
-    padding: 0;
     place-items: center;
 }
 
 /* Título centrado */
 .chat-title {
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding-block: 1rem;
+    
     text-align: center;
-    background: #1e1e1e;
-    color: #00acee;
-    font-size: 1.5rem;
-    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.002);
+    color: #01b3f7;
+    font-size: 2.5rem;
+    /* width: fit-content; */
+    width: 100%;
     border-radius: 20px;
+    border-bottom: 3px solid #01b1f742;
 }
 
 /* Caja de mensajes */
 .chat-box {
-    max-width: 800px;
+    /* max-width: 800px; */
     flex: 1;
     width: 100%;
     overflow-y: auto;
@@ -45,7 +49,10 @@ body,
     scrollbar-color: #555 #181818;
     margin-bottom: 10px;
     padding-bottom: 100px;
-
+    /* padding-bottom: 100px; */
+    background-color: rgba(255,255,255,0.0);
+    border-radius: 10px;
+    
 }
 
 /* Scrollbar en navegadores basados en WebKit */
@@ -111,3 +118,4 @@ body,
 .chat-button:hover {
     background: #008bb9;
 }
+
