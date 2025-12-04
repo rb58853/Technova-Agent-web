@@ -1,14 +1,12 @@
 import './App.css';
-import Chat from './componets/chat/chat';
 
-function App() {
+function App({ content }) {
   return (
     <div className="App">
       <header className="App-header">
-        <Chat />
+        {content}
       </header>
     </div>
   );
 }
-
 export default App;

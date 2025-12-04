@@ -90,7 +90,7 @@
 .user-query-container {
   font-style: 'italic';
   padding: '8px 0';
-  margin-top: 32px;
+  /* margin-top: 32px; */
   font-size: 1.5rem;
   font-style: normal;
   background-color: rgba(255, 255, 255, 0.048);
@@ -100,4 +100,10 @@
   border-top-right-radius: 10px;
   margin-bottom: 0px;
   /* font-weight: 600; */
+}
+
+.response-container{
+  /* background-color: #2b3f33; */
+  padding: 20px;
+  margin-bottom: 60px;
 }

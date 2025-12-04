@@ -29,12 +29,13 @@ body,
 
     text-align: center;
     background-color: rgba(255, 255, 255, 0.01);
-    color: #01b3f7;
+    color: #ffffff;
     font-size: 2.5rem;
     /* width: fit-content; */
     width: 100%;
     border-radius: 20px;
-    border-bottom: 3px solid #01b1f742;
+    border-bottom: 3px solid #77cdf042;
+    font-weight: 600;
 }
 
 /* Caja de mensajes */

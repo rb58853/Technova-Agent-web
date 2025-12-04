@@ -1,0 +1,30 @@
+.Home {
+    color: white;
+    max-width: 1000px;
+}
+
+.button-chat {
+    border: none;
+    background: linear-gradient(135deg, #4086f0 0%, #075ecf 100%);
+    color: rgb(247, 247, 247);
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    opacity: 0.9;
+    min-height: 48px;
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    /* Asegura altura mínima consistente */
+}
+
+.button-chat:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.button-chat:active {
+    transform: scale(0.98);
+}
