@@ -12,7 +12,7 @@ function Home() {
     <div className="Home">
       <header className="Home-header">
         <h1>Welcome to Technova Chat</h1>
-        <p>This is a simple home page for our AI chatbot connected to Technova’s MCP servers. Start a smart, real-time conversation powered by advanced technology.</p>
+        <p>This is a simple home page for our Technova AI chatbot. Start a smart, real-time conversation powered by advanced technology.</p>
         <button className='button-chat' onClick={goToChat}>
           Start Chat
         </button>

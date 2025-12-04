@@ -14,7 +14,7 @@ body,
     flex-direction: column;
     height: 100vh;
     width: 90%;
-    max-width: 1000px;
+    max-width: 800px;
     /* background: #181818; */
     /* Modo oscuro */
     color: #f0f0f0;
@@ -28,13 +28,13 @@ body,
     padding: 1rem;
 
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.01);
+    background-color: rgba(255, 255, 255, 0.008);
     color: #ffffff;
     font-size: 2.5rem;
     /* width: fit-content; */
     width: 100%;
     border-radius: 20px;
-    border-bottom: 3px solid #77cdf042;
+    border-bottom: 1px solid #99e2ff42;
     font-weight: 600;
 }
 
@@ -52,7 +52,7 @@ body,
     padding-bottom: 150px;
     /* padding-bottom: 100px; */
     background-color: rgba(255, 255, 255, 0.0);
-    border-left: 1px solid #ffffff18;
+    border-left: 1px solid #ffffff0c;
 
 
 }
@@ -117,23 +117,64 @@ body,
 
 .chat-button {
     border: none;
-    background: linear-gradient(135deg, #25f8ff 0%, #357fe0 100%);
+    background: transparent;
+    /* color: white; */
     color: white;
-    padding: 12px 16px;
-    border-radius: 8px;
+    /* padding: 12px 16px; */
+    border-radius: 50px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 32px;
     transition: all 0.2s ease;
-    opacity: 0.9;
+    opacity: 0.6;
     min-height: 48px;
     /* Asegura altura mínima consistente */
 }
 
 .chat-button:hover {
+    /* background: rgb(68, 122, 202); */
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.1);
+
 }
 
 .chat-button:active {
     transform: scale(0.98);
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 20px 0;
+    padding: 16px;
+    background: #ffffff00;
+    border-radius: 12px;
+    overflow-y: auto;
+}
+
+.faq-item {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 18px;
+    border: 1px solid #e9ecef18;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1.3rem;
+    user-select: none;
+    width: fit-content;
+    text-align: left;
+}
+
+.faq-item:hover {
+    background: rgba(143, 208, 255, 0.116);
+    border-color: #2196f3;
+    transform: translateY(-1px);
+}
+
+.connecting-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
 }

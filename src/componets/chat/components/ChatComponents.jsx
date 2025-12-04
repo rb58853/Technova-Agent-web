@@ -9,7 +9,7 @@ import './styles.css';
 // Componente para queries
 export const UserQueryComponent = ({ input }) => (
     <div className="user-query-container">
-        💬 {input}
+        👤 {input}
     </div>
 );
 
@@ -17,7 +17,7 @@ export const UserQueryComponent = ({ input }) => (
 export const QueryComponent = ({ query }) => (
     <div className="query-container">
         {/* <h3 className="query-title">🔍 Consulta</h3> */}
-        <h4 className="query-text">🔍 {query}</h4>
+        <h3 className="query-text">{query}</h3>
     </div>
 );
 
@@ -49,7 +49,7 @@ export const DataComponent = ({ data }) => (
 // Componente para steps
 export const StepComponent = ({ step, message }) => (
     <div className="step-container">
-        <h4 className="step-title">📋 {step}</h4>
+        <h4 className="step-title">📘 {step}</h4>
         <p className="step-message">{message}</p>
     </div>
 );
