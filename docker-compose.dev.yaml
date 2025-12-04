@@ -1,0 +1,14 @@
+services:
+  vite-react:
+    image: technova-agent-web
+    build:
+      context: .
+      dockerfile: dockerfile
+      tags:
+        - technova-agent-web
+    ports:
+      - "3000:3000"
+    # env_file:
+    #   - .env
+      
+    restart: unless-stopped 

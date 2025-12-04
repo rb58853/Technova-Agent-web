@@ -11,9 +11,6 @@ const Chat = () => {
         {messages.map((msg, idx) => (
           <div key={idx} className="chat-message">
             {msg}
-            {/* <ReactMarkdown>
-              {msg}
-            </ReactMarkdown> */}
           </div>
         ))
         }
@@ -25,12 +22,13 @@ const Chat = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-          placeholder="Escribe un mensaje..."
+          placeholder="Ask anything ..."
         />
         <button className="chat-button" onClick={sendMessage}>
-          Enviar
+          →
         </button>
       </div>
+
     </div >
   );
 };

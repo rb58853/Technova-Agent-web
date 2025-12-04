@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -32,7 +32,13 @@ p {
   margin-bottom: 0.2em; /* reduce espacio entre párrafos */
   line-height: 1.2;     /* reduce altura de línea */
 }
+a {
+  color: rgb(102, 173, 235);
+}
 
+code {
+  border-radius: 20px;
+}
 
 @keyframes App-logo-spin {
   from {

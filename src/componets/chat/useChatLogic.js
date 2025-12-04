@@ -74,7 +74,7 @@ export default function useChatLogic() {
       setMessages((prev) => [
         ...prev,
         <UserQueryComponent input={input}/>,
-        <div style={{ height: '1px', backgroundColor: '#E5E7EB', margin: '8px 0' }} key={`divider-${Date.now()}`} />
+        // <div style={{ height: '1px', backgroundColor: '#E5E7EB', margin: '8px 0' }} key={`divider-${Date.now()}`} />
       ]);
       setInput("");
     }
