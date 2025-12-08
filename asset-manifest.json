@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Technova-Agent-web/static/css/main.cb94e40b.css",
-    "main.js": "/Technova-Agent-web/static/js/main.f406a917.js",
+    "main.js": "/Technova-Agent-web/static/js/main.bbae3df6.js",
     "index.html": "/Technova-Agent-web/index.html",
     "main.cb94e40b.css.map": "/Technova-Agent-web/static/css/main.cb94e40b.css.map",
-    "main.f406a917.js.map": "/Technova-Agent-web/static/js/main.f406a917.js.map"
+    "main.bbae3df6.js.map": "/Technova-Agent-web/static/js/main.bbae3df6.js.map"
   },
   "entrypoints": [
     "static/css/main.cb94e40b.css",
-    "static/js/main.f406a917.js"
+    "static/js/main.bbae3df6.js"
   ]
 }
